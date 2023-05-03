@@ -1,0 +1,8 @@
+.NavLinks{
+    display: flex;
+    flex-direction: row;
+    flex: center;
+    justify-items: center;
+    text-align: center;
+    justify-content: center;
+}
