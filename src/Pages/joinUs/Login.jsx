@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import style from './form.module.css'
+import swal from 'sweetalert';
+
 
 function Login() {
 
@@ -18,7 +20,12 @@ function Login() {
     const loggedUser = JSON.parse(localStorage.getItem('user'));
     if (input.email === loggedUser.email && input.password === loggedUser.password) {
       localStorage.setItem("loggedIn", true)
-      alert('Registered Succesfully')
+      // alert('Loged Succesfully')
+      swal({
+        title: "Good job!",
+        text: "Successfully Logged in!",
+        icon: "success",
+      });
       navigate('/home')
     } else {
       alert("Invalid Email or Password")
@@ -42,11 +49,12 @@ function Login() {
         </div><br />
 
         <button>Login</button><br /><pre/>
+        <br/>
 
-        <p>Don't have an account ?
+        <h6>Don't have an account ?
         <Link to={'/register'}>
           <u>Register here</u>
-        </Link></p>
+        </Link></h6>
 
       </form>
     </section>
