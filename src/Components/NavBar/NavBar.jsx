@@ -3,12 +3,11 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import { Link,NavLink, Routes,Route } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import './NavBar.css'
 import Button from 'react-bootstrap/Button';
 import Register from '../../Pages/joinUs/Register';
-import AboutUs from '../AboutUs/AboutUs';
-import Home from '../../Pages/Home/Home';
+
 
 
 
@@ -17,8 +16,6 @@ const NavBar = () => {
 
   return (
 
-    <>
-    <Router>
     <div>
         <Navbar fixed="top" bg="dark" variant={"dark"} expand="lg">
         <Container>
@@ -38,30 +35,12 @@ const NavBar = () => {
               <Nav.Link as={NavLink} to="/pricing">PRICING</Nav.Link>
             </Nav>
           
-            <Link to='/register' element={<Register/>} ><Button    variant = "danger" className = "joinBtn">Join Us</Button>  </Link>
+            <Link to='/register' element={<Register/>} ><Button variant = "danger" className = "joinBtn">Join Us</Button>  </Link>
             </Navbar.Collapse>
         </Container>
       </Navbar>
 
     </div>
-
-    </Router>
-   
-
-
-
-
-    </>
-
-
-
-
-
-
-
-
-
-
 
   )
 }

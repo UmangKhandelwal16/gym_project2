@@ -5,7 +5,7 @@ import plans from './plans';
 
 const Pricing = () => {
   return (
-    <div>
+    <div className='OurPrices'>
     <h3 className='Plans'> Our Plans </h3>
     <div className="card-container">
       {plans.map(plan => (

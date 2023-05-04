@@ -1,39 +1,39 @@
 import React from 'react'
 import style from './About.module.css'
 // import gym11 from './videos/gym11.mp4'
- import gym2 from './videos/gym2.mp4'
+import gym2 from './videos/gym2.mp4'
 // import Button from '@mui/material/Button'
 
 function About() {
-    
-   
+
+
     return (
         <>
 
             <div className={style.container} >
-              
+
                 <div className={style.box} >
 
                     <div className={style.video}>
 
-                    <video style={{ objectFit: "cover", width: "50%", height: "auto" }} src={gym2} 
-                       
-                       controls autoPlay muted>
+                        <video style={{ objectFit: "cover", width: "50%", height: "auto" }} src={gym2}
 
-                       </video>
+                            controls autoPlay muted>
+
+                        </video>
 
                     </div>
 
                     <div className={style.para}>
                         <h2>About us</h2>
                         <p>Joining a gym at any time of life can be a daunting experience if you’re not used to them, but this post is about to show you 20 positive benefits of joining a gym that will enhance your life extraordinarily, especially if you’re over forty years old.Let’s get into it.
-                        A gymnasium, also known as a gym, is a covered location for athletics. The word is derived from the ancient Greek term "gymnasium". They are commonly found in athletic and fitness centres, and as activity and learning spaces in educational institutions. "Gym" is also slang for "fitness centre", which is often an area for indoor recreation. A "gym" may include or describe adjacent open air areas as well.</p>
-                    
-                    <br></br>
-                    
-<button onClick={()=>{alert('You have clicked from the About section')}}     style={{ color: 'white', backgroundColor: 'red' }}>Learn More</button>
-                
-</div></div>
+                            A gymnasium, also known as a gym, is a covered location for athletics. The word is derived from the ancient Greek term "gymnasium". They are commonly found in athletic and fitness centres, and as activity and learning spaces in educational institutions. "Gym" is also slang for "fitness centre", which is often an area for indoor recreation. A "gym" may include or describe adjacent open air areas as well.</p>
+
+                        <br></br>
+
+                        <button onClick={() => { alert('You have clicked from the About section') }} style={{ color: 'white', backgroundColor: 'red' }}>Learn More</button>
+
+                    </div></div>
 
 
                 <div className={style.box}>
@@ -59,11 +59,11 @@ function About() {
 
                     <div className={style.video}>
 
-                       <video style={{ objectFit: "cover", width: "50%", height: "auto" }} src={gym2} 
-                       
-                       controls autoPlay muted>
+                        <video style={{ objectFit: "cover", width: "50%", height: "auto" }} src={gym2}
 
-                       </video>
+                            controls autoPlay muted>
+
+                        </video>
 
                     </div>
                 </div>

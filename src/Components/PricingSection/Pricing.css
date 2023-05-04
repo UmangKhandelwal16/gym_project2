@@ -1,6 +1,11 @@
+.OurPrices{
+  background-color: rgba(0, 0, 0, 0.904);
+}
+
 .card-container {
     display: flex;
     justify-content: center;
+
   }
   
   .card {
@@ -12,6 +17,7 @@
     padding: 20px;
     text-align: center;
     width: 300px;
+ 
   }
   
   .card h2 {
@@ -21,6 +27,8 @@
   
   .card p {
     font-size: 20px;
+    color: black;
+    font-weight: 700;
   }
   
   .card ul {
@@ -42,6 +50,7 @@
     font-size: 18px;
     padding: 10px 20px;
     transition: background-color 0.2s ease-in-out;
+    text-align: center;
   }
   
   .card button:hover {
@@ -52,4 +61,5 @@
   position: relative;
   justify-content: center;
   text-align: center;
-  }
+  color: whitesmoke;
+}

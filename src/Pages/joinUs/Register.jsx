@@ -13,7 +13,7 @@ function Register() {
         password: '',
     })
     const [errors, setErrors] = useState({})
-    const [isRegistered, setIsRegistered] = useState(false) 
+  //  const [isRegistered, setIsRegistered] = useState(false) 
 
 
 
@@ -44,7 +44,7 @@ function Register() {
             localStorage.setItem('user', JSON.stringify(input))
             console.log('User form submitted')
             navigate('/login')
-            setIsRegistered(true)
+//            setIsRegistered(true)
             swal({
                 title: "Good job!",
                 text: "Registered Successfully!",
