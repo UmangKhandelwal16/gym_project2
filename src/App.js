@@ -1,13 +1,19 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap/dist/js/bootstrap.min.js';
+//import 'bootstrap/dist/js/bootstrap.min.js';
 import Home from './HomePage/Home';
+import Pricing from './HomePage/Pricing';
+import About from './HomePage/About';
+import NavBar from './HomePage/NavBar';
 
 function App() {
   return (
-    <div className="App">
+    <>    
+      <NavBar/>  
       <Home/>
-    </div>
+      <About/>
+      <Pricing/>
+    </>
   );
 }
 

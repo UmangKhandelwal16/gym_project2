@@ -1,24 +1,12 @@
 import React from 'react'
 import Carousel from 'react-bootstrap/Carousel';
-import Navbar from 'react-bootstrap/Navbar'
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
+
 
 
 function Home() {
   return (
     <>
-    <Navbar bg="dark" variant="dark" fixed="top">
-        <Container>
-          <Navbar.Brand href="#home">GYM</Navbar.Brand>
-          <Nav className="NavLinks">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#features">Features</Nav.Link>
-            <Nav.Link href="#pricing">Pricing</Nav.Link>
-          </Nav>
-        </Container>
-      </Navbar>
-
+    
     <Carousel>
       <Carousel.Item>
         <img
