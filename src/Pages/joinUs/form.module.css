@@ -1,0 +1,37 @@
+section{
+    background-size: cover;
+    background-image: url('https://cdn.shopify.com/s/files/1/0209/9894/files/shutterstock_179554040_1024x1024.jpg?11068046874827376653');
+}
+
+.formSection {
+
+   padding-top: 7rem;
+    text-align: center;
+
+    height: 70vh;
+}
+
+form {
+   
+    background-color: white;
+    box-shadow: rgba(238, 176, 67, 0.88)  2px 4px 10px;
+    margin-left: 35rem;
+    width: 50vh;
+    border-radius: 8px;
+    padding: 1rem;
+}
+
+form button{
+    
+    color:aliceblue;
+    background-color: cornflowerblue;
+    border: none;
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.24) 1px 3px 8px;
+}
+
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+

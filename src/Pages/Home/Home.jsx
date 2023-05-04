@@ -7,9 +7,11 @@ import Nav from 'react-bootstrap/Nav';
 import GymAboutUs from '../../Components/AboutUs/AboutUs';
 
 
+
 function Home() {
   return (
     <div className="App">
+   
       <Navbar bg="dark" variant="dark" fixed="top">
         <Container>
           <Navbar.Brand href="#home">GYM</Navbar.Brand>
