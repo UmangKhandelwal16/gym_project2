@@ -6,10 +6,10 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import { NavLink } from 'react-router-dom';
 import './NavBar.css'
 import Button from 'react-bootstrap/Button';
+import  {useNavigate} from 'react-router-dom'
 
 const NavBar = () => {
-
-
+const navigate=useNavigate()
   return (
 
     <div>
@@ -30,7 +30,9 @@ const NavBar = () => {
               <Nav.Link as={NavLink} to="/blogs">BLOGS</Nav.Link>
               <Nav.Link as={NavLink} to="/pricing">PRICING</Nav.Link>
             </Nav>
-            <Button    variant = "danger" className = "joinBtn">Join Us</Button>   
+            <Button    variant = "danger" className = "joinBtn" onClick={()=>{
+              navigate('./register')
+            }} >Join Us</Button>   
             </Navbar.Collapse>
         </Container>
       </Navbar>
