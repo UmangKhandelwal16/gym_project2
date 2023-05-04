@@ -1,14 +1,20 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Corousel from '../../Components/Corousel/Corousel';
 import GymAboutUs from '../../Components/AboutUs/AboutUs';
-import NavBar from '../../Components/NavBar/NavBar';
+import Pricing from '../../Components/PricingSection/Pricing';
+import Programs from '../../Components/TrainingPrograms/Programs';
+import Blogs from '../../Components/Blogs/Blogs';
+import TrainingTeam from '../../Components/TeamMembers/TrainingTeam';
 
 function Home() {
   return (
     <div className="App">
-      <NavBar/>
       <Corousel/>
       <GymAboutUs/>
+      <Programs/>
+      <Pricing/>
+      <Blogs/>
+      <TrainingTeam/>
     </div>
   );
 }

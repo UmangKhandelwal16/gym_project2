@@ -1,6 +1,6 @@
 import React from 'react'
 import Carousel from 'react-bootstrap/Carousel';
-
+import './Corousel.css'
 
 
 function Corousel() {
@@ -14,10 +14,7 @@ function Corousel() {
           src="https://images.pexels.com/photos/3076514/pexels-photo-3076514.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
           alt="First slide"
         />
-        <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </Carousel.Caption>
+          <h3 className='CorouselCaption'>“If you want something you've <span className="highlight"> never </span> had, you must be willing to do something you've <span className="highlight"> never </span> done.”</h3>
       </Carousel.Item>
       <Carousel.Item>
         <img
@@ -26,10 +23,7 @@ function Corousel() {
           alt="Second slide"
         />
 
-        <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </Carousel.Caption>
+          <h3 className='CorouselCaption'>“When I <span className="highlight"> feel tired </span>, I just think about how great I will feel once I finally reach my goal.”</h3>
       </Carousel.Item>
       <Carousel.Item>
         <img
@@ -38,12 +32,8 @@ function Corousel() {
           alt="Third slide"
         />
 
-        <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
-        </Carousel.Caption>
+          <h3 className='CorouselCaption'>“The only <span className="highlight"> bad workout </span> is the one that didn't happen”</h3>
+
       </Carousel.Item>
     </Carousel>
 

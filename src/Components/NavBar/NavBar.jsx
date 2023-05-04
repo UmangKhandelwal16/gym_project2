@@ -5,14 +5,13 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import { NavLink } from 'react-router-dom';
 import './NavBar.css'
-import { BrowserRouter as Router } from 'react-router-dom';
 import Button from 'react-bootstrap/Button';
 
 const NavBar = () => {
 
 
   return (
-    <Router>
+
     <div>
         <Navbar fixed="top" bg="dark" variant={"dark"} expand="lg">
         <Container>
@@ -36,7 +35,7 @@ const NavBar = () => {
         </Container>
       </Navbar>
     </div>
-    </Router>
+
   )
 }
 

@@ -1,0 +1,14 @@
+.CorouselCaption{
+    position: absolute;
+    top: 10rem;
+    left: 8rem;
+    color: aliceblue;
+    height: 25rem;
+    width: 20rem;
+}
+
+
+.highlight{
+    color: red;
+  font-weight: bold;
+}
