@@ -24,25 +24,25 @@ function Trainings() {
       <Card className={style.TrainersProfile}>
         <Card.Img variant="top" className={style.TrainersPicture} src="https://images.pexels.com/photos/2204196/pexels-photo-2204196.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
         <Card.Body className={style.TrainersInfo}>
-            <h3> Trainer's name: John Smith </h3>
-            <p> Specialization: Weight training </p>
-            <p> Experience: 5 years </p>
+            <h3 > Trainer's name: John Smith </h3>
+            <p className={style.text} > Specialization: Weight training </p>
+            <p className={style.text} > Experience: 5 years </p>
         </Card.Body>
       </Card>
       <Card className={style.TrainersProfile}>
         <Card.Img variant="top" className={style.TrainersPicture} src="https://images.pexels.com/photos/4058411/pexels-photo-4058411.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
         <Card.Body className={style.TrainersInfo}>
             <h3> Trainer's Name: Sarah Johnson</h3>
-            <p>Specialization: Cardiovascular fitness </p>
-            <p> Experience: 3 years  </p>
+            <p className={style.text}>Specialization: Cardiovascular fitness </p>
+            <p className={style.text}> Experience: 3 years  </p>
         </Card.Body>
       </Card>
       <Card className={style.TrainersProfile}>
         <Card.Img variant="top" className={style.TrainersPicture} src="https://images.pexels.com/photos/6456140/pexels-photo-6456140.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"  />
         <Card.Body className={style.TrainersInfo}>
             <h3> Trainer's Name: Michael Lee</h3>
-            <p> Specialization: Sports-specific training </p>
-            <p>Experience: 7 years</p>
+            <p className={style.text}> Specialization: Sports-specific training </p>
+            <p className={style.text}>Experience: 7 years</p>
         </Card.Body>
       </Card>
     </CardGroup>
