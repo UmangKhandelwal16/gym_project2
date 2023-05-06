@@ -2,10 +2,27 @@
     position: absolute;
     top: 50%;
     left: 50%;
+    padding: 1rem;
     transform: translate(-50%, -50%);
   }
   
   .joinBtn{
       position: absolute;
-      right: 2rem;
+      right: 1.5rem;
+      margin-top: 1em;
+      margin-left: 1em;
+  
   }
+  .btn {
+    --bs-btn-padding-y: 0rem;
+  }
+
+@media (max-width:650px){
+  .me-auto{
+    background-color:black;
+    margin-top: 2rem;
+  }
+}
+
+
+ 

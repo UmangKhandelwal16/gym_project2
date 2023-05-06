@@ -70,19 +70,19 @@ function Register() {
                         <label>Email</label><br />
 
                         <input type='text' name='email' placeholder='email' value={input.email} onChange={(e) => setInput({ ...input, [e.target.name]: e.target.value })} /><br />
-                        {errors.email && <h5>{errors.email}</h5>}
+                        {errors.email && <h5 className={style.h5}>{errors.email}</h5>}
                     </div>
 
                     <div>
                         <label>Name</label><br />
                         <input type='text' name='name' placeholder='Your Name' value={input.name} onChange={(e) => setInput({ ...input, [e.target.name]: e.target.value })} /><br />
-                        {errors.name && <h5>{errors.name}</h5>}
+                        {errors.name && <h5 className={style.h5}>{errors.name}</h5>}
                     </div>
 
                     <div>
                         <label className={style.label}>Pssword</label><br />
                         <input type='password' name='password' placeholder='password' value={input.password} onChange={(e) => setInput({ ...input, [e.target.name]: e.target.value })} />
-                        {errors.password && <h5>{errors.password}</h5>}
+                        {errors.password && <h5 className={style.h5} >{errors.password}</h5>}
                     </div>
 
                 </div><pre />

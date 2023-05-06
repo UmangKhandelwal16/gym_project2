@@ -1,18 +1,23 @@
+
+
+
 .container {
-  padding-top: 5rem;
+  padding-top: 6rem;
   height: max-content;
   flex-direction: column;
   justify-content: center;
   background-color: rgba(0, 0, 0, 0.501);
-  background-image: url('https://wallpapertag.com/wallpaper/full/5/1/a/124353-popular-gym-background-1920x1110-for-android-tablet.jpg');
+  /* background-image: url('https://wallpapertag.com/wallpaper/full/5/1/a/124353-popular-gym-background-1920x1110-for-android-tablet.jpg'); */
   background-blend-mode: darken;
-}
+  
+} 
 
 .box {
   flex-direction: row;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-bottom: 3rem;
 }
 
 .video {
@@ -49,7 +54,6 @@ video {
 
 h2 {
   color:red;
-  
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: xx-large;
@@ -64,8 +68,8 @@ li {
   list-style: none;
 }
 
-h4 {
-  font-size: x-large;
+.h4 {
+  font-size:large;
   color: rgb(239, 209, 111);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -74,12 +78,13 @@ h4 {
 @media (max-width:650px) {
   .box {
       flex-direction: column;
+      
   }
   .para {
       text-align:start;
       width: 80%;
      margin: 1rem;
-  
+
   }
  
   

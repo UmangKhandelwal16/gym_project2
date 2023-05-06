@@ -40,13 +40,13 @@ function About() {
                     <div className={style.para}>
                         <h2>Why Choose us?</h2>
                         <ul>
-                            <li><h4>Consultations with Experts</h4></li>
+                            <li className={style.h4}>Consultations with Experts</li>
 
                             <p>Your metabolism stays higher for longer after a weights session
                                 Muscle regeneration. Your body uses calories to rebuild your muscles after a weights session (when your muscles ache)
                                 BMR. Once you have stronger muscles, you use more calories to feed them</p>
 
-                            <li><h4>Best Workout facilities</h4> </li>
+                            <li className={style.h4}>Best Workout facilities</li>
 
                             <p>Without real focus and a solid routine to follow, your motivation and commitment to really getting fit and strong are going to be in jeopardy from day one.
 

@@ -80,6 +80,7 @@ u {
 @media (max-width:650px) {
     .formSection {
         flex-direction: column;
+        align-items: center;
     }
 
 }

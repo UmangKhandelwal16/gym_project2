@@ -1,0 +1,51 @@
+.foot{
+    padding-top: 1rem ;
+    display: flex;
+    color:rgb(175, 174, 174);
+    justify-content: space-around;
+    background-size: cover;
+}
+
+.footContainer{
+    background-color: rgb(35, 35, 37);
+    background-size: cover;
+    padding-bottom: .5em; 
+}
+.footLink{
+    display: flex;
+    gap: 1em;
+    text-align: center;
+
+}
+.lastfoot{
+text-align: center;
+}
+h4{
+    color: gainsboro;
+}
+
+.last{
+    font-size: small;
+    color: gainsboro;
+}
+hr{
+    color: whitesmoke;
+}
+
+.logo{
+    align-items: center;
+   
+    text-align: center;
+}
+
+@media (max-width:650px) {
+    .foot{
+        flex-direction: column;
+        align-items: center;
+    }
+    .footLink{
+        margin-bottom: 1em;
+        flex-direction: column;
+        align-items: center;
+    }
+}

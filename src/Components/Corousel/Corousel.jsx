@@ -3,7 +3,10 @@ import Carousel from 'react-bootstrap/Carousel';
 import './Corousel.css'
 
 
+
+
 function Corousel() {
+ 
   return (
     <>
 
@@ -11,30 +14,52 @@ function Corousel() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://images.pexels.com/photos/3076514/pexels-photo-3076514.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          src="https://wallpapercave.com/wp/wp7661163.jpg"
           alt="First slide"
         />
-          <h3 className='CorouselCaption'>“If you want something you've <span className="highlight"> never </span> had, you must be willing to do something you've <span className="highlight"> never </span> done.”</h3>
+          <h3 className='CorouselCaption'>“Take care of your <span className="highlight"> body </span> it's <br/>the only place<br/> you have to <span className="highlight"> Live </span> .”</h3>
+          
       </Carousel.Item>
+
+     
+    
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://images.pexels.com/photos/3253501/pexels-photo-3253501.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          src="https://wallpapercave.com/wp/wp5901457.jpg"
           alt="Second slide"
         />
+          <h3 className='CorouselCaption'>“The only <span className="highlight"> bad workout </span> is the one that didn't happen”</h3>
+      </Carousel.Item>
 
-          <h3 className='CorouselCaption'>“When I <span className="highlight"> feel tired </span>, I just think about how great I will feel once I finally reach my goal.”</h3>
+
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src="https://wallpaperaccess.com/full/1245132.jpg"
+          alt="Third slide"/>
+          <h3 className='CorouselCaption'>“The only <span className="highlight"> bad workout </span> is the one that didn't happen”</h3>
+      </Carousel.Item>
+
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src="https://blog.telewellnessmd.com/hs-fs/hubfs/Blog%20Images/buy%20cjc%20ipamorelin%20online.jpg?width=1000&name=buy%20cjc%20ipamorelin%20online.jpg"
+          alt="Third slide"/>
+          <h3 className='CorouselCaption'>“The only <span className="highlight"><br/> bad workout<br/>  </span> is the one that<br/>  didn't happen”</h3>
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://images.pexels.com/photos/1092883/pexels-photo-1092883.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-          alt="Third slide"
-        />
-
-          <h3 className='CorouselCaption'>“The only <span className="highlight"> bad workout </span> is the one that didn't happen”</h3>
-
+          src="https://livefitgym.com/wp-content/uploads/2019/12/LFG_Main_Page_Panel2-scaled.jpg"
+          alt="Third slide"/>
+         <h3 className='CorouselCaption'>“Take care of your <span className="highlight"> body </span> it's <br/> the only place <br/>ou have to <span className="highlight"> Live </span> .”</h3>
+          
       </Carousel.Item>
+
+    
+
+
     </Carousel>
 
     </>
@@ -43,3 +68,6 @@ function Corousel() {
 
 
 export default Corousel;
+
+
+

@@ -2,9 +2,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Corousel from '../../Components/Corousel/Corousel';
 import Pricing from '../../Components/PricingSection/Pricing';
 import Programs from '../../Components/TrainingPrograms/Programs';
-import Blogs from '../../Components/Blogs/Blogs';
-import TrainingTeam from '../../Components/TeamMembers/TrainingTeam';
-import About from '../../Components/AboutUs/AboutUs';
+import Team from '../../Components/TeamMembers/Team';
+import About from '../../Components/AboutUs/AboutUs'
+import Trainings from '../../Components/Blogs/Trainings';
+import Register from '../../Components/Register/Register';
 
 function Home() {
   return (
@@ -13,8 +14,9 @@ function Home() {
       <About/>
       <Programs/>
       <Pricing/>
-      <Blogs/>
-      <TrainingTeam/>
+      <Trainings/>
+      <Team/>
+      <Register/>
     </div>
   );
 }
