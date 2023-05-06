@@ -1,9 +1,13 @@
 .TrainersCards{
-    border: 2px solid orange;
+    border: 2px solid rgb(241, 158, 4);
     margin: 5rem;
     background-color: black;
     }
     
+/* design */
+
+
+
 .trainersContainer {
     display: flex;
     flex-wrap: wrap;
@@ -15,7 +19,7 @@
   .TrainersProfile {
     width: 300px;
     height: 400px;
-    border: 1px solid black;
+    border: 1px solid rgb(38, 37, 37);
   }
   
   .TrainersPicture {
@@ -44,12 +48,12 @@
 .teamBtn{
   width:13rem;
   background-color: rgb(155, 113, 7);
-  color: white;
+  color: rgb(239, 235, 235);
   border: none;
 }
 
 .text{
-  color: black;
+  color: rgb(28, 28, 28);
   font-family: serif;
   font-weight: bold;
 }

@@ -17,7 +17,7 @@ function Register() {
     const [isRegistered, setIsRegistered] = useState(false)
 
 
-
+// form validation
     const validateForm = ({
         name, email, password }) => {
         let errors = {}
