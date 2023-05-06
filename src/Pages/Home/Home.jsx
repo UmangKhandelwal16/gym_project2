@@ -11,9 +11,9 @@ function Home() {
   return (
     <div className="App">
       <Corousel/>
-      <Programs/>
-      <Pricing/>
       <About/>
+      <Pricing/>
+      <Programs/>
       <Trainings/>
       <Register/>
     </div>
